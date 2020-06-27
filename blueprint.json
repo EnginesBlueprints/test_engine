@@ -22,7 +22,7 @@
         "label": "Test Engine"
       }
     },
-    "timestamp": "2020-06-27T11:55:58+10:00"
+    "timestamp": "2020-06-27T12:03:24+10:00"
   },
   "software": {
     "base": {
@@ -112,6 +112,8 @@
         "name": "test",
         "download_type": "git",
         "source_url": "https://github.com/EnginesOS/system",
+        "destination": "/",
+        "extraction_command": "git",
         "path_to_extracted": "system",
         "authentication": "key"
       }
@@ -147,7 +149,8 @@
           "db_username": "_Engines_Builder(engine_name)",
           "db_password": "_Engines_System(random(10))",
           "collation": "utf8_general_ci",
-          "full_access": "false"
+          "full_access": "false",
+          "char_set": "utf8"
         }
       },
       {
@@ -173,7 +176,8 @@
           "db_username": "_Engines_Builder(engine_name)_db2",
           "db_password": "_Engines_System(random(10))",
           "collation": "utf8_general_ci",
-          "full_access": "false"
+          "full_access": "false",
+          "char_set": "utf8"
         }
       },
       {
