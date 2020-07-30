@@ -22,7 +22,7 @@
         "label": "Test Engine"
       }
     },
-    "timestamp": "2020-06-27T12:03:24+10:00"
+    "timestamp": "2020-07-30T13:40:38+10:00"
   },
   "software": {
     "base": {
@@ -378,22 +378,6 @@
         "script": {
           "language": "sh",
           "content": "#!/bin/bash\r\n\r\nls -Rl /home/fs/\r\nls -la /home\r\nls -la /home/app"
-        }
-      }
-    ],
-    "schedules": [
-      {
-        "label": "list_users",
-        "timespec": {
-          "minute": "13",
-          "hour": "1",
-          "day_of_month": "*",
-          "month": "*",
-          "day_of_week": "*"
-        },
-        "instruction": "action",
-        "actionator": {
-          "name": "list_test"
         }
       }
     ],
